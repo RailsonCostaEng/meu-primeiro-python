@@ -6,3 +6,6 @@ while True:
         break
     lista_de_tarefas.append(tarefa)
     print(f"Sua lista agora: {lista_de_tarefas} ")
+    print("--- Suas tarefas ---")
+    for item in lista_de_tarefas:
+        print(f"- {item}")
